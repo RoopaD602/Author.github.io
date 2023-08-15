@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap');
+body{
+	background-color:black;
+	width:100%;
+	height:auto;
+	overflow-x:hidden;
+	font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.ImageBox{
+text-align:center;
+}
+.heading h1 {
+    color: #ffffff;
+    font-size:40px;
+	text-align:center;
+}
+.heading h2 {
+    color: #ffffff;
+    font-size: 24px;
+	text-align:center;
+}
+.heading h2 .fa-play:before {
+    content: "\f04b";
+    color: white;
+    border: 2px solid white;
+    border-radius: 41px;
+    margin-left: 1199%;
+    font-size: 30px;
+    
+    padding: 10px 15px 9px 15px;
+}
+.bio p:last-child{
+	border-bottom:1px solid #ffffff2e;
+	padding-bottom:20px;
+}
+.Click_btn{
+	text-align:center;
+	font-size:40px;
+	margin:20px 0;
+}
+.Click_btn a{
+	cursor:pointer;
+	color:#fff;
+	
+}
+.Click_btn a i{
+	transition:0.5s all;
+}
+.Click_btn a:hover i{
+	transform:scale(1.2);
+}
+.bio{
+	width:100%;
+	color:white;
+}
+.bio h2{
+	font-size:35px;
+	text-align:center;
+}
+.bio p{
+	font-size:25px;
+	
+	text-align:center;
+}
+sup {
+    background-color: #21a2a9;
+    margin: 3px;
+    padding: 0 2px;
+    font-size: 15px;
+}
+.book .days{
+	width:100%;
+	margin-left:10%;
+	
+}
+.book h2{
+	font-size:35px;
+	color:#fff;
+	text-align:center;
+}
+.days img{
+	float:left;
+	margin:30px;
+	height:300px;
+}
+.dys img {
+    height: 383px;
+	margin-top:20px;
+}
+.daypara{
+	width:100%;
+}
+.dys{
+	width:28%;
+	
+	float:left;
+}
+.para{
+	width:70%;
+	float:left;
+}
+.para p{
+	margin-top:20px;
+	color:lightgrey;
+	font-size:18px;
+	padding-left:30px;
+	 
+}
